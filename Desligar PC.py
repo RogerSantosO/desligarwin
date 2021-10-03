@@ -3,9 +3,6 @@ import PySimpleGUI as sg
 
 class DesligarPc:
 
-    def __init__(self):
-        self.tempo = 0
-
     def iniciar(self):
         layout = [
             [sg.Text('Escolha uma opção de tempo para desligar o computador.')],
